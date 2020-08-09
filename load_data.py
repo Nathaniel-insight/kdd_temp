@@ -7,6 +7,9 @@ sqlalchemy
 google cloud platform
 """
 
+import pandas as pd
+
+
 def load():
     """
     main function for loading data
@@ -14,6 +17,7 @@ def load():
     """
 
     return None
+
 
 if __name__ == '__main__':
     """
