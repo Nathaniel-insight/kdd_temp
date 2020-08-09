@@ -15,3 +15,12 @@ Comes with 8 python files for
 - saving process
 - running models
 - cleaning / presenting results
+
+cleaning, processing and training are all sklearn transformers.
+
+each file can is connected to the previous file in the following process
+
+loading --> cleaning --> processing --> training -->
+training --> evaluating --> saving process
+
+saving process --> running models --> cleaning / presenting results
