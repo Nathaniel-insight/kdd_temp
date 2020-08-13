@@ -51,7 +51,7 @@ def p_pipe():
 
 if __name__ == "__main__":
     """
-    perform clean data tests here
+    perform process data tests here
     """
 
     data = load()
