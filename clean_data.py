@@ -56,5 +56,5 @@ if __name__ == "__main__":
     data = load()
 
     clean_pipe = c_pipe()
-    clean_data = clean_pipe(data)
+    clean_data = clean_pipe.transform(data)
 
